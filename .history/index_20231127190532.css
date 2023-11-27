@@ -61,7 +61,7 @@ img:nth-child(3){
   width: 205px;
 height: 238px;
 }
-img:nth-child(4){
+img:nth-child(){
   width: 230px;
 height: 233px;
 }

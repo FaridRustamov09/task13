@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,700;1,800&family=Roboto+Slab:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 140px 135px 180px 135px;
+  min-height: 100vh;
+  background-color: #28293e;
+}
+.container .texts h2 {
+  margin-bottom: 20px;
+  color: #ef6d58;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.container .texts h1 {
+  width: 531px;
+  height: 128px;
+  color: #fff;
+  font-family: Epilogue;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  letter-spacing: -1px;
+}
+.box-container {
+  display: flex;
+  
+}
+.box {
+    margin-left: 30px;
+  padding: 24px 37px 1px 37px ;
+  width: 270px;
+  height: 272px;
+  border-radius: 6px;
+  border: 1px solid #3a3c56;
+}
+.box-2{
+    padding-top: 39px;
+    margin-left: 30px;
+    width: 270px;
+    height: 272px;
+    border-radius: 6px;
+    border: 1px solid #3a3c56;
+}
+.box-container .box h3{
+    padding-top: 26px;
+    color:#FFF;
+    font-family: Epilogue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+}
+.box-container .box p{
+    color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.box-container .box-2 h3{
+    padding-top: 26px;
+    color: #FFF;
+    font-family: Epilogue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+}
+.box-container .box-2 p{
+    color: var(--Text_Light_Gray, rgba(255, 255, 255, 0.64));
+    font-family: Epilogue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}

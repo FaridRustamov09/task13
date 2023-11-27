@@ -45,9 +45,6 @@
 height: 272px;
   border-radius: 6px;
   border: 1px solid #3a3c56;
-  display: flex;
-  justify-content: center;
-  align-items: end;
 }
 img:first-child{
   width: 196px;
@@ -61,7 +58,7 @@ img:nth-child(3){
   width: 205px;
 height: 238px;
 }
-img:nth-child(4){
+img:last-child{
   width: 230px;
 height: 233px;
 }
